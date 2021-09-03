@@ -1,23 +1,23 @@
-void  main () {
+void main() {
 
-  String tipoDeRoupa =  "Camisetas" ;
+  String tipoDeRoupa = "Camisetas";
 
-  // seleção de um programa de máquina de lavar
-  switch (tipoDeRoupa) {
-    estojo  "Jeans" :
-      imprimir ( "Lavagem pesada" );
-      pausa ;
-    case  "Seda" :
-      imprimir ( "Lavagem delicada" );
-      pausa ;
-    estojo  "Pano de chão" :
-      imprimir ( "Lavagem pesada com alvejante" );
-      pausa ;
-    case  "Camisetas" :
-      imprimir ( "Lavagem diária" );
-      pausa ;
-    padrão :
-      imprimir ( "verificar uma etuqueta" );
-      pausa ;
+  //seleção de um programa de máquina de lavar
+  switch(tipoDeRoupa){
+    case "Jeans":
+      print("Lavagem pesada");
+      break;
+    case "Seda":
+      print("Lavagem delicada ");
+      break;
+    case "Pano de chão":
+      print("Lavagem pesada com alvejante");
+      break;
+    case "Camisetas":
+      print("Lavagem diária");
+      break;
+    default:
+      print("Verifique a etuqueta");
+      break;
   }
 }
