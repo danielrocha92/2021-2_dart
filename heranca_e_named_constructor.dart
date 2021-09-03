@@ -1,4 +1,3 @@
-// é
 classe  Aluno  extends  Pessoa {
 int ra;
 
@@ -19,9 +18,9 @@ Pessoa ( este .nome, este .email);
 }
 
 void  main () {
-Aluno a =  Aluno ( 999 , "Luiz" , "lulu@uni9.edu.br" );
+Aluno a =  Aluno ( 999 , "Daniel" , "daniel@uni9.edu.br" );
 
 imprimir (a.nome);
 
-Aluno a2 =  Aluno . matricular ( "Leonardo" , "leoleo@uni.com" );
+Aluno a2 =  Aluno . matricular ( "Rocha" , "rocha@uni.com" );
 }
