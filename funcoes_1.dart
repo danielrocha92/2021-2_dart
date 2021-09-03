@@ -1,19 +1,19 @@
 void main() {
-  calculateSum(60, 60);
-  print (calculates Multiplication (2, 6));
-  print (speak Name ("Nathalia Giovanna"));
+  calculaSoma(60, 60);
+  print(calculaMultiplicacao(2, 6));
+  print(falarNome("Daniel Rocha"));
 }
 
-void calculateSum(double a, double b) {
-  double sum = a + b;
-  print (sum);
+void calculaSoma(double a, double b) {
+  double soma = a + b;
+  print(soma);
 }
 
-double calculateMultiplication (double a, double b) {
+double calculaMultiplicacao(double a, double b) {
   double mult = a * b;
   return mult;
 }
 
-String speakName(String name) {
-  return "Hello $name";
+String falarNome(String nome) {
+  return "Olá $nome";
 }
