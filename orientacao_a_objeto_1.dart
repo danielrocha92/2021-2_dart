@@ -24,9 +24,9 @@ class Pessoa {
 void main() {
   Pessoa p = Pessoa();
 
-  p.nome = "Thiago Traue";
-  p.idade = 34;
-  p.email = "thiago.traue@uni9.pro.br";
+  p.nome = "Daniel Rocha";
+  p.idade = 35;
+  p.email = "danielrocha92@uni9.edu.br";
   p.fumante = true;
 
   print("Olá ${p.nome}, tudo bem?");
