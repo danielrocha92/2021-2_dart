@@ -1,44 +1,44 @@
-class  Pessoa {
+class Pessoa {
 
-  // atributos:
-  Nome da string ;
+  //atributos:
+  String nome;
   String email;
   int idade;
   bool fumante;
 
-  void  fazerAniversario () {
-    idade ++ ; // ++ é a mesma coisa que idade = idade + 1
-    print ( "ôba, festinha com todos mascarados" );
+  void fazerAniversario() {
+    idade++; //++ é a mesma coisa que idade = idade + 1
+    print("ôba, festinha com todos mascarados");
   }
 
-  String  falarEmail () {
-    retornar  "Meu e-mail é $ { email } " ;
+  String falarEmail() {
+    return "Meu e-mail é ${email}";
   }
 
-  void  comer ( String comida) {
-    print ( "Hmmm, adoro comer $ { comida } " );
+  void comer(String comida) {
+    print("Hmmm, adoro comer ${comida}");
   }
 }
 
 
-void  main () {
-  Pessoa p =  Pessoa ();
+void main() {
+  Pessoa p = Pessoa();
 
-  p.nome =  "Thiago Traue" ;
-  p.idade =  34 ;
-  p.email =  "thiago.traue@uni9.pro.br" ;
-  p.fumante =  verdadeiro ;
+  p.nome = "Thiago Traue";
+  p.idade = 34;
+  p.email = "thiago.traue@uni9.pro.br";
+  p.fumante = true;
 
-  print ( "Olá $ { p . nome } , tudo bem?" );
-  print ( "Ah! Vi que você tem $ { p . idade } anos. Da hora!" );
+  print("Olá ${p.nome}, tudo bem?");
+  print("Ah! Vi que você tem ${p.idade} anos. Da hora!");
 
-  p. fazerAniversario ();
+  p.fazerAniversario();
 
   //print(p.idade);
 
-  imprimir (p. falarEmail ());
+  print(p.falarEmail());
 
-  imprimir (p);
+  print(p);
 
-  p. comer ( "nutella" );
+  p.comer("nutella");
 }
