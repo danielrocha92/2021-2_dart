@@ -50,19 +50,19 @@ class Pessoa {
 
 
 void main() {
-  Pessoa p = Pessoa("Thiago Traue", "thiago.traue@uni9.pro.br", 34, false);
+  Pessoa p = Pessoa("Daniel Rocha", "danielrocha92@uni9.edu.br", 35, false);
 
-//   p.nome = "Thiago Traue";
-//   p.idade = 34;
-//   p.email = "thiago.traue@uni9.pro.br";
-//   p.fumante = true;
+//   p.nome = "Daniel Rocha";
+//   p.idade = 35;
+//   p.email = "danielrocha92@uni9.edu.br";
+//   p.fumante = false;
 
   print("Olá ${p.nome}, tudo bem?");
   print("Ah! Vi que você tem ${p.idade} anos. Da hora!");
 
   p.fazerAniversario();
 
-  p.nome = "Josefina";
+  p.nome = "Apolonio";
   print(p.nome);
 
   //print(p.idade);
