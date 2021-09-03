@@ -10,14 +10,14 @@ void main() {
 
   pessoas.add(
     Pessoa(
-      nome: "Fulano",
+      nome: "Daniel",
       idade: 20
     )
   );
 
   pessoas.add(
     Pessoa(
-      nome: "Allisson",
+      nome: "Rocha",
       idade: 18
     )
   );
